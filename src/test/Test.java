@@ -22,6 +22,12 @@ public class Test {
     public static double producto(double a, double b){
         return a*b;
     }
+    public static double division(double a, double b){
+        if (a > 0) {
+            return a/b;
+        }
+        return -123.43231;
+    }
     
     /**
      * @param args the command line arguments
